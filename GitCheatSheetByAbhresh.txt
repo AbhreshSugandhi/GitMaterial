@@ -66,6 +66,7 @@ Alias:
 
 Diff commands:
  Difference between two commits= git diff <old commit> <new commit>
+ Difference between two commits= git diff <old commit> <new commit> -- filename
  Modified VS Commited = git diff <filename>
  Staged VS Commited = git diff --staged <Filename>
  Staged VS Specific Commit = git diff <commit ID>
