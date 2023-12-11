@@ -163,3 +163,11 @@ git rebase
 
 Change the default branch
  git push --set-upstream origin <branchname>
+
+Shallow and Unshallow Commands
+ To clone specific amount of commits= git clone --depth <number of commits you want to clone> <project url>
+ To donwload more depth of commits= git fetch --deepen <no of commits you want to fetch till>
+ To download full depth of commits= git fetch --unshallow
+
+Hooks
+ 
