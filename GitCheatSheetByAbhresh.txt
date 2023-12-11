@@ -23,6 +23,7 @@ Move the file from untracked/unstaged to staged area
 Commit 
  New file= git commit -m "message"
  modified file= git commit -am "message"
+ single file committing= git commit --only <filename> -m "message"
 
 Remote Repo
 Connect Local repo with Remote repo: git remote add origin <repo url>
@@ -50,8 +51,7 @@ Log commands
  To view the backend log with even the hidden steps we can use: git reflog
  To see all the details of reflog use - git reflog show --all
  
-
-Renameing a file from git
+Renaming a file from git
  git mv <old name> <new name>
 
 View the list of configuration
@@ -75,6 +75,7 @@ Diff commands:
 Pushing Changes to remote Repo
  1st time push= git push -u origin <remote branch>
  multiple times push= git push
+ pushing changes to a specific branch= git push origin branchname
 
 Cloning a repo
  Complete repo= git clone <URL of the repo>
