@@ -62,7 +62,6 @@ Alias:
  git config --global alias.ci commit
  git config --global alias.st status
  git config --global --unset "alias.name"
- git config --global --unset-all
 
 Diff commands:
  Difference between two commits= git diff <old commit> <new commit>
@@ -168,6 +167,3 @@ Shallow and Unshallow Commands
  To clone specific amount of commits= git clone --depth <number of commits you want to clone> <project url>
  To donwload more depth of commits= git fetch --deepen <no of commits you want to fetch till>
  To download full depth of commits= git fetch --unshallow
-
-Hooks
- 
